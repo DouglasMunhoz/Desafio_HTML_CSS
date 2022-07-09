@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    width: auto;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    background-color: #212121;
+}
+
+header #conteudoheader{
+    color: #fff;
+    width: 100%;
+    display: flex;
+}
+
+header #conteudoheader #logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 15%;
+    font-size: 1.4rem;
+}
+
+header #conteudoheader .home, .contato, .sobre{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    color: #fff; 
+}
+
+.home{
+    background-color: #F9A825;
+    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+    margin: 3px;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.contato{
+    margin-left: 25px;
+    height: 39px;
+    width: 80px;
+}
+
+.contato:hover{
+    margin-left: 25px;
+    height: 39px;
+    width: 80px;
+    background-color: red;
+}
+
+.sobre{
+    margin-left: 25px;
+    height: 39px;
+    width: 80px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+#box-main{
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+p{
+    width: 80%;
+    height: auto;
+    background-color: #fafafa;
+    font-family: helvetica;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px 0 10px 10px;
+    margin: 10% 0 10% 0;
+}
+
+#box-main .pontilhado{
+    border-right: 1px dashed black;
+    height: 100%;
+    width: 50%;
+}
+
+.email {
+    margin-left: 12px;
+    width: 50%;
+    height: 100%;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.orientacao{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.txt {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: helvetica;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: 1px solid black;
+    width: 60px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+footer {
+    height: 80px;
+    width: auto;
+    background-color: #212121;
+    display: flex;
+    flex-grow: 1;
+}
+
+#douglasmunhoz {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
