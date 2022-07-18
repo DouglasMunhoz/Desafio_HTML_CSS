@@ -152,6 +152,9 @@ footer {
     background-color: #212121;
     display: flex;
     flex-grow: 1;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 #douglasmunhoz {
